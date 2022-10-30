@@ -17,9 +17,9 @@ spec:
           image: elghibaomar/chatbot-frontend:latest
           env:
             - name: PORT
-              value: "8082"
+              value: "8081"
           ports:
-          - containerPort: 8082
+          - containerPort: 8081
 
 
 ---
@@ -33,7 +33,7 @@ spec:
     - name: http
       protocol: TCP
       port: 80
-      targetPort: 8082
+      targetPort: 8081
   selector:
     app: chatbot-frontend-deployment
 
