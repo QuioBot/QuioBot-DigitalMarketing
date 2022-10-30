@@ -21,7 +21,7 @@ COPY . .
 # build app for production with minification
 RUN npm run build
 
-RUN npm install
+RUN npm install webpack-cli@3.3.12 --force
 
 EXPOSE 8081
 CMD [ "http-server", "dist" ]
