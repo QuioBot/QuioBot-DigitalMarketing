@@ -9,7 +9,7 @@ WORKDIR /app
 # copy both 'package.json' and 'package-lock.json' (if available)
 COPY package*.json ./
 
-RUN npm install npm@14
+RUN npm install npm@14.18.1
 
 # install project dependencies
 
