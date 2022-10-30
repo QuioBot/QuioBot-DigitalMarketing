@@ -9,7 +9,7 @@ WORKDIR /app
 # copy both 'package.json' and 'package-lock.json' (if available)
 COPY package*.json ./
 
-RUN npm install npm@latest -g
+RUN npm install npm@7.19.1
 
 # install project dependencies
 
