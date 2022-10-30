@@ -1,4 +1,4 @@
-FROM node:17.0.0-alpine
+FROM node:14.18.1-alpine
 
 # install simple http server for serving static content
 RUN npm install -g http-server
