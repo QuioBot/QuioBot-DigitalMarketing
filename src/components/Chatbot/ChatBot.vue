@@ -4,7 +4,7 @@
     <div class="card-header msg_head">
       <div class="d-flex bd-highlight">
         <div class="img_cont">
-          <img src="chatbot.png" class="rounded-circle user_img">
+          <img src="../../assets/images/logo/chatbot.png" class="rounded-circle user_img">
           <span class="online_icon"></span>
         </div>
         <div class="user_info">
