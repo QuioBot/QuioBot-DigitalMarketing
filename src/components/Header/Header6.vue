@@ -7,8 +7,8 @@
                 <div class="col-12">
                     <div class="header__body">
                         <div class="header__logo">
-                            <a href="/">
-                                <img id="site-logo" src="../../assets/images/logo/logo-05.png" alt="ICOLand" width="175" height="50" data-retina="assets/images/logo/logo-main@x2.png" data-width="165" data-height="40">
+                            <a href="#Home">
+                                <img id="site-logo" src="../../assets/images/logo/logo-05.png" data-retina="assets/images/logo/logo-main@x2.png" data-width="165" data-height="40">
                             </a>
                         </div>
                         <div class="header__right">
@@ -21,7 +21,7 @@
                                     </li>
 
                                     <li class="menu-item">
-                                        <a class="page-scroll" href="#Shema">Shema</a>
+                                        <a class="page-scroll" href="#RoadMap">Road Map</a>
                                     </li>
 
                                     <li class="menu-item">
@@ -31,7 +31,7 @@
                                         <a class="page-scroll" href="#About As">About As</a>
                                     </li> -->
                                     <li class="menu-item">
-                                        <a class="page-scroll" href="#Road Map">Road Map</a>
+                                        <a class="page-scroll" href="#Training">Training</a>
                                     </li>
                                     <li class="menu-item">
                                         <a class="page-scroll" href="#FAQ">FAQ</a>

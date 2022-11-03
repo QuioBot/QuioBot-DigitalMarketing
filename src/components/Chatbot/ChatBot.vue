@@ -29,7 +29,7 @@
           
         >
         <div>
-                <img src="https://i.postimg.cc/Pq3PwbrY/chatbot.png" style="height: 40px; width: 40px ;float: left;">
+                <img src="https://i.postimg.cc/vBVgY5GH/Untitled-design-11.png" style="height: 40px; width: 40px ;float: left;">
         </div>
           <p >
             <span style="padding: 8px;
@@ -173,7 +173,7 @@ mounted:function(){
             }, 3000);
      
     },
-    sendMessage() {
+    async sendMessage() {
       const message = this.message
 
       this.messages.push({
@@ -183,10 +183,24 @@ mounted:function(){
 
       this.message = ''
 
-      axios.get(`https://www.cleverbot.com/getreply?key=CC8uqcCcSO3VsRFvp5-uW5Nxvow&input=${message}`)
+
+      // await axios
+      //       .post(
+      //         "http://127.0.0.1:8008/chatbot",{question:message},
+      // )
+      //       .then((response) => {
+      //           // this.messages.push({
+      //           // text: response.data.user,
+      //           // author: 'server',
+      //           console.log(response)
+      //       // })
+      //       // console.log(response.data.user)
+      //         })
+
+      axios.get(`http://127.0.0.1:8008/chatbot?question=${message}`)
       .then(res => {
         this.messages.push({
-          text: res.data.output,
+          text: res.data,
           author: 'server',
         })
         var audio = new Audio(data.soundurl);
@@ -238,7 +252,7 @@ mounted:function(){
         width: 40px;
         // border:1.5px solid #f5f6fa;
         float: left;
-        content:url(https://i.postimg.cc/Pq3PwbrY/chatbot.png);
+        content:url(https://i.postimg.cc/vBVgY5GH/Untitled-design-11.png);
     }
   }
 

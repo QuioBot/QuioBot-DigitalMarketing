@@ -2,11 +2,11 @@
     <div class="home-defi-4">
         <Header6 />
         <Banner8 id="Home"/>
-        <FAQ id="Shema"/>
+        <FAQ id="RoadMap"/>
         <Parner4 id="Technologies"/>
         
         <!-- <About8 id="About As"/> -->
-        <RoadMap8 id="Road Map"/>
+        <RoadMap8 id="Training"/>
         <FAQ8 id="FAQ"/>
         <Footer5 id="Contact"/>
         <!-- <Footer id="Subscribe"/> -->
