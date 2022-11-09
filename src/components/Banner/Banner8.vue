@@ -6,8 +6,8 @@
             <div className="row">
                 <div className="col-xl-6 col-md-12">
                     <div className="banner-top__content">
-                        <h6 style="color:#42ccce;" class="sub-title">{{subtitle}}</h6>
-                        <h2 className="title">{{title}}</h2>
+                        <h6  style="font-size: 4em; color:#42ccce;" class="sub-title">{{subtitle}}</h6>
+                        <h2 style="font-size: 5em;" className="title">{{title}}</h2>
                         <p className="desc">{{desc}}</p>
                         <a class="btn-action style-5" href="#">
                                 <span>Github Repository</span>
@@ -38,12 +38,12 @@
                                     
                                         <div className="token-bar">
                                             <div className="top">
-                                                <h6>Raised - <span>15,000 Q&A Dataset</span></h6>
-                                                <h6>Target - <span>1,500,000 Q&A Dataset</span></h6>
+                                                <h6>Raised - <span>15,000 Dataset</span></h6>
+                                                <h6>Target - <span>1,500,000 Dataset</span></h6>
                                             </div>
                                             <div className="main">
                                                 <div className="progress-token">
-                                                    <p className="fs-14">29,390</p>
+                                                    <p className="fs-14">23,390</p>
                                                 </div>
                                             </div>
 
@@ -86,7 +86,7 @@ export default {
     data (){
         return {
             dataBanner,
-            subtitle : 'Smart and secure way to get the information',
+            subtitle : 'BERT And GPT',
             title : 'Quiobot Chat Bot',
             desc : ' Quiobot chatbot is AI-powered conversational solutions that help patients, insurance companies, and healthcare providers easily connect with each other.',
         }    
